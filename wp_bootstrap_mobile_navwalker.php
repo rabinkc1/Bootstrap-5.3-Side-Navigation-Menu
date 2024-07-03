@@ -1,4 +1,5 @@
 <?php
+// link this file in your functions.php
 if (!class_exists('WP_Bootstrap_Mobile_Navwalker')) :
 
     class WP_Bootstrap_Mobile_Navwalker extends Walker_Nav_Menu {
